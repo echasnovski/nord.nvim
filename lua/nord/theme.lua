@@ -721,17 +721,99 @@ theme.loadPlugins = function()
 		StatusLineAccent = { fg = nord.nord0_gui, bg = nord.nord13_gui },
 
 		-- mini.nvim
+		MiniAnimateCursor = { style = "reverse,nocombine" },
+		MiniAnimateNormalFloat = { link = "NormalFloat" },
+
+		MiniClueBorder = { link = "FloatBorder" },
+		MiniClueDescGroup = { link = "DiagnosticFloatingWarn" },
+		MiniClueDescSingle = { link = "NormalFloat" },
+		MiniClueNextKey = { link = "DiagnosticFloatingHint" },
+		MiniClueNextKeyWithPostkeys = { link = "DiagnosticFloatingError" },
+		MiniClueSeparator = { link = "DiagnosticFloatingInfo" },
+		MiniClueTitle = { link = "FloatTitle" },
+
 		MiniCompletionActiveParameter = { style = "underline" },
 
 		MiniCursorword = { bg = nord.nord3_gui },
 		MiniCursorwordCurrent = { bg = nord.nord3_gui },
+
+		MiniDepsChangeAdded = { link = "diffAdded" },
+		MiniDepsChangeRemoved = { link = "diffRemoved" },
+		MiniDepsHint = { link = "DiagnosticHint" },
+		MiniDepsInfo = { link = "DiagnosticInfo" },
+		MiniDepsMsgBreaking = { link = "DiagnosticWarn" },
+		MiniDepsPlaceholder = { link = "Comment" },
+		MiniDepsTitle = { link = "Title" },
+		MiniDepsTitleError = { link = "DiffDelete" },
+		MiniDepsTitleSame = { link = "DiffText" },
+		MiniDepsTitleUpdate = { link = "DiffAdd" },
+
+		MiniDiffSignAdd = { fg = nord.nord14_gui },
+		MiniDiffSignChange = { fg = nord.nord13_gui },
+		MiniDiffSignDelete = { fg = nord.nord11_gui },
+		MiniDiffOverAdd = { link = "DiffAdd" },
+		MiniDiffOverChange = { link = "DiffText" },
+		MiniDiffOverContext = { link = "DiffChange" },
+		MiniDiffOverDelete = { link = "DiffDelete" },
+
+		MiniFilesBorder = { link = "FloatBorder" },
+		MiniFilesBorderModified = { link = "DiagnosticFloatingWarn" },
+		MiniFilesCursorLine = { link = "CursorLine" },
+		MiniFilesDirectory = { link = "Directory" },
+		MiniFilesFile = { fg = nord.nord4_gui },
+		MiniFilesNormal = { link = "NormalFloat" },
+		MiniFilesTitle = { link = "FloatTitle" },
+		MiniFilesTitleFocused = { fg = nord.nord4_gui, style = bold },
+
+		MiniHipatternsFixme = { fg = nord.nord0_gui, bg = nord.nord11_gui, style = bold },
+		MiniHipatternsHack = { fg = nord.nord0_gui, bg = nord.nord15_gui, style = bold },
+		MiniHipatternsNote = { fg = nord.nord0_gui, bg = nord.nord10_gui, style = bold },
+		MiniHipatternsTodo = { fg = nord.nord0_gui, bg = nord.nord9_gui, style = bold },
+
+		MiniIconsAzure = { fg = nord.nord8_gui },
+		MiniIconsBlue = { fg = nord.nord9_gui },
+		MiniIconsCyan = { fg = nord.nord7_gui },
+		MiniIconsGreen = { fg = nord.nord14_gui },
+		MiniIconsGrey = { fg = nord.nord5_gui },
+		MiniIconsOrange = { fg = nord.nord12_gui },
+		MiniIconsPurple = { fg = nord.nord15_gui },
+		MiniIconsRed = { fg = nord.nord11_gui },
+		MiniIconsYellow = { fg = nord.nord13_gui },
 
 		MiniIndentscopeSymbol = { fg = nord.nord10_gui },
 		MiniIndentscopePrefix = { style = "nocombine" }, -- Make it invisible
 
 		MiniJump = { fg = nord.nord0_gui, bg = nord.nord4_gui },
 
-		MiniJump2dSpot = { fg = nord.nord12_gui, style = "bold,nocombine" },
+		MiniJump2dDim = { link = "Comment" },
+		MiniJump2dSpot = { fg = nord.nord12_gui, style = bold },
+		MiniJump2dSpotAhead = { fg = nord.nord8_gui, bg = nord.nord0_gui, style = "nocombine" },
+		MiniJump2dSpotUnique = { fg = nord.nord13_gui, style = bold },
+
+		MiniMapNormal = { link = "NormalFloat" },
+		MiniMapSymbolCount = { link = "Special" },
+		MiniMapSymbolLine = { link = "Title" },
+		MiniMapSymbolView = { link = "Delimiter" },
+
+		MiniNotifyBorder = { link = "FloatBorder" },
+		MiniNotifyNormal = { link = "NormalFloat" },
+		MiniNotifyTitle = { link = "FloatTitle" },
+
+		MiniOperatorsExchangeFrom = { link = "IncSearch" },
+
+		MiniPickBorder = { link = "FloatBorder" },
+		MiniPickBorderBusy = { link = "DiagnosticFloatingWarn" },
+		MiniPickBorderText = { link = "FloatTitle" },
+		MiniPickIconDirectory = { link = "Directory" },
+		MiniPickIconFile = { link = "MiniPickNormal" },
+		MiniPickHeader = { link = "DiagnosticFloatingHint" },
+		MiniPickMatchCurrent = { link = "CursorLine" },
+		MiniPickMatchMarked = { link = "Visual" },
+		MiniPickMatchRanges = { link = "DiagnosticFloatingHint" },
+		MiniPickNormal = { link = "NormalFloat" },
+		MiniPickPreviewLine = { link = "CursorLine" },
+		MiniPickPreviewRegion = { link = "IncSearch" },
+		MiniPickPrompt = { link = "DiagnosticFloatingInfo" },
 
 		MiniStarterCurrent = { style = "nocombine" },
 		MiniStarterFooter = { fg = nord.nord14_gui, style = italic },
